@@ -1,4 +1,6 @@
-export default (state,action)=>{
+
+// eslint-disable-next-line
+export default (state, action) => {
     switch(action.type){
         case'DELETE_TRANSACTION':
         return{
